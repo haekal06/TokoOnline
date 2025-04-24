@@ -39,7 +39,6 @@ class CustomerController extends Controller
                     'foto' => $socialUser->avatar, // Foto dari Google
                 ]);
 
-
                 // Buat data customer
                 Customer::create([
                     'user_id' => $user->id,
